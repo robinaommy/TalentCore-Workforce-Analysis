@@ -57,7 +57,7 @@ Total Employees, Exited Employees, Attrition Rate, Avg Tenure (Active/Exited), A
 Attrition is uneven, not uniform:  company-wide attrition is 15.3%, but Finance runs 6+ points above average despite being the second-highest-paid department; pay is not the likely driver.
 Customer Support is the highest-priority department:  the largest team (22% of headcount) is simultaneously the lowest-paid, lowest-performing, and second-highest-attrition department; a compounding, not isolated, risk.
 Attrition happens early:  leavers averaged 2.4 years of tenure vs. 5.1 for active staff, pointing to onboarding and early-tenure experience as the likely lever, not long-term burnout.
-No material gender pay gap:  male vs. female average pay differs by under 1%, with a near-even gender split — no evidence of a systemic pay-equity issue at the aggregate level.
+No material gender pay gap:  male vs. female average pay differs by under 1%, with a near-even gender split - no evidence of a systemic pay-equity issue at the aggregate level.
 Top performers may be under-rewarded:  Sales holds the highest performance rating company-wide but is paid well below Engineering, creating retention exposure for a high-performing team.
 
 **RECOMMENDATIONS**
