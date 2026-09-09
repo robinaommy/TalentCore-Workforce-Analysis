@@ -62,6 +62,10 @@ Top performers may be under-rewarded:  Sales holds the highest performance ratin
 
 ![image alt](https://github.com/robinaommy/TalentCore-Workforce-Analysis/blob/9f1d3d0b27a1af4839d991809a7b859013ac1b7b/Attrition%20Analysis.png)
 
+![image alt](https://github.com/robinaommy/TalentCore-Workforce-Analysis/blob/9f1d3d0b27a1af4839d991809a7b859013ac1b7b/Compensation%20and%20Diversity%20Analysis.png)
+
+![image alt](
+
 **RECOMMENDATIONS**
 
 Prioritize a Customer Support retention and compensation review as the highest-leverage action. In parallel: investigate Finance's elevated attrition through targeted exit interviews, strengthen onboarding and first-two-year support company-wide, and review Sales compensation relative to performance to protect top performers from external offers.
