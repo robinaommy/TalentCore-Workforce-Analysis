@@ -29,27 +29,32 @@ Initial profiling revealed the dataset was far less complete than its row count 
 This phase built the analytical structure needed to answer the business questions: a star schema and a library of DAX measures 
 
 Star Schema
-Employee  — Employee ID, Job Role, Department, Location, and date foreign keys, plus measures (Salary, Performance Rating, Training Hours, Age, Overtime, Attrition Status).
 
-Date — full calendar with Year/Quarter/Month, linked to Hire Date.
+Employee - Employee ID, Job Role, Department, Location, and date foreign keys, plus measures (Salary, Performance Rating, Training Hours, Age, Overtime, Attrition Status).
 
-Location — Office Location mapped to Country and Region, enabling geographic rollups.
+Date - full calendar with Year/Quarter/Month, linked to Hire Date.
 
-JobRole  — 24 job roles mapped to Function and Level (Individual Contributor / Team Lead / Manager).
+Location - Office Location mapped to Country and Region, enabling geographic rollups.
 
-Department  — departments grouped into a Function Group (Revenue-Generating / Operations & Delivery / Corporate Support).
+JobRole  - 24 job roles mapped to Function and Level (Individual Contributor / Team Lead / Manager).
+
+Department  - departments grouped into a Function Group (Revenue-Generating / Operations & Delivery / Corporate Support).
 
 **Calculated Columns**
-Tenure (Years)  — years of service, computed to the Exit Date for leavers and to the current date for active staff.
-Salary Band  — quartile-based compensation tiers (Entry / Mid / Senior / Executive), set from the actual salary distribution rather than round-number guesses.
-Age Band  — four-group age segmentation (18-29, 30-39, 40-49, 50-65) for workforce composition views.
+
+Tenure (Years)  - years of service, computed to the Exit Date for leavers and to the current date for active staff.
+
+Salary Band  - quartile-based compensation tiers (Entry / Mid / Senior / Executive), set from the actual salary distribution rather than round-number guesses.
+
+Age Band  - four-group age segmentation (18-29, 30-39, 40-49, 50-65) for workforce composition views.
 
 **Key Measures**
+
 Total Employees, Exited Employees, Attrition Rate, Avg Tenure (Active/Exited), Avg and Median Monthly Salary, Avg Salary by Gender, Pay Gap %, Avg Performance Rating, Avg Training Hours, plus coverage-count companions (e.g., Rated Employee Count) so every average carries its sample size.
 
 **INSIGHTS** (based on 243 of 1,000 source records)
 
-Attrition is uneven, not uniform:  company-wide attrition is 15.3%, but Finance runs 6+ points above average despite being the second-highest-paid department — pay is not the likely driver.
+Attrition is uneven, not uniform:  company-wide attrition is 15.3%, but Finance runs 6+ points above average despite being the second-highest-paid department; pay is not the likely driver.
 Customer Support is the highest-priority department:  the largest team (22% of headcount) is simultaneously the lowest-paid, lowest-performing, and second-highest-attrition department; a compounding, not isolated, risk.
 Attrition happens early:  leavers averaged 2.4 years of tenure vs. 5.1 for active staff, pointing to onboarding and early-tenure experience as the likely lever, not long-term burnout.
 No material gender pay gap:  male vs. female average pay differs by under 1%, with a near-even gender split — no evidence of a systemic pay-equity issue at the aggregate level.
