@@ -64,7 +64,7 @@ Top performers may be under-rewarded:  Sales holds the highest performance ratin
 
 ![image alt](https://github.com/robinaommy/TalentCore-Workforce-Analysis/blob/9f1d3d0b27a1af4839d991809a7b859013ac1b7b/Compensation%20and%20Diversity%20Analysis.png)
 
-![image alt](
+![image alt](https://github.com/robinaommy/TalentCore-Workforce-Analysis/blob/528aded115176390afcf4f0d6fc3f5d903368849/Departmental%20Performance.png)
 
 **RECOMMENDATIONS**
 
