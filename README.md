@@ -29,24 +29,15 @@ Initial profiling revealed the dataset was far less complete than its row count 
 This phase built the analytical structure needed to answer the business questions: a star schema and a library of DAX measures 
 
 Star Schema
-Employee  
+Employee  — Employee ID, Job Role, Department, Location, and date foreign keys, plus measures (Salary, Performance Rating, Training Hours, Age, Overtime, Attrition Status).
 
-— Employee ID, Job Role, Department, Location, and date foreign keys, plus measures (Salary, Performance Rating, Training Hours, Age, Overtime, Attrition Status).
+Date — full calendar with Year/Quarter/Month, linked to Hire Date.
 
-Date 
-— full calendar with Year/Quarter/Month, linked to Hire Date.
+Location — Office Location mapped to Country and Region, enabling geographic rollups.
 
-Location 
+JobRole  — 24 job roles mapped to Function and Level (Individual Contributor / Team Lead / Manager).
 
-— Office Location mapped to Country and Region, enabling geographic rollups.
-
-JobRole  
-
-— 24 job roles mapped to Function and Level (Individual Contributor / Team Lead / Manager).
-
-Department  
-
-— departments grouped into a Function Group (Revenue-Generating / Operations & Delivery / Corporate Support).
+Department  — departments grouped into a Function Group (Revenue-Generating / Operations & Delivery / Corporate Support).
 
 **Calculated Columns**
 Tenure (Years)  — years of service, computed to the Exit Date for leavers and to the current date for active staff.
